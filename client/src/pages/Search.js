@@ -1,7 +1,12 @@
 import React from "react";
+import SearchBar from "../components/SearchBar/SearchBar"
+import Results from "../components/Results/Results"
 
 export default function Search() {
-    return(
-        "Hello Search Page"
+    return (
+        <>
+                <SearchBar />
+                <Results />
+        </>
     )
 }
